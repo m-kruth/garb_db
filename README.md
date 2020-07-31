@@ -1,4 +1,4 @@
-# Garb-db is garbage
+# All databases are garbage
 
 The problem with databases these days is that they promise so much.
 
@@ -6,7 +6,7 @@ The problem with databases these days is that they promise so much.
 
 But they all lie and are actually garbage.
 
-## Garb-db is honest
+## GarbDB is honest
 
 When you use Garb-db, you're never surprised by how it fails because it promises you nothing:
 
@@ -16,4 +16,4 @@ When you use Garb-db, you're never surprised by how it fails because it promises
 
 ## Garb-db is simple to debug
 
-The source code is less than 30 lines, so their are very few possible errors to deal with.
+The source code is less than 30 lines, so there are very few possible errors to deal with.
