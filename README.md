@@ -1,3 +1,19 @@
 # Garb-db is garbage
 
-It shouldn't be used for anything. I wrote it to explore some of the problems with databases.
+The problem with databases these days is that they promise so much.
+
+> DB X is Highly Available. DB Y is eventually consistent.
+
+But they all lie and are actually garbage.
+
+## Garb-db is honest
+
+When you use Garb-db, you're never surprised by how it fails because it promises you nothing:
+
+- No promise of availability
+- No promise of consistency
+- Not distributed
+
+## Garb-db is simple to debug
+
+The source code is less than 30 lines, so their are very few possible errors to deal with.
