@@ -1,10 +1,10 @@
 # All databases are garbage
 
-The problem with databases these days is that they promise so much.
+The problem with databases these days is that they promise too much.
 
 > DB X is Highly Available. DB Y is eventually consistent.
 
-But they all lie and are actually garbage.
+But they all **lie** and are actually garbage.
 
 ## GarbDB is honest
 
@@ -13,6 +13,7 @@ When you use Garb-db, you're never surprised by how it fails because it promises
 - No promise of availability
 - No promise of consistency
 - Not distributed
+- No Promise of keeping your data
 
 ## Garb-db is simple to debug
 
