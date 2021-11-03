@@ -13,7 +13,7 @@ def main():
         prompt()
 
 def prompt():
-    mode = input("press q to enter query mode. Press a to enter add mode.")
+    mode = input("input:")
 
     if mode == 'q':
         query = input()
