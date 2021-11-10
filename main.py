@@ -5,7 +5,7 @@ def add_entry(entry):
 
 def search(query):
     for item in db:
-        if item is query:
+        if item == query:
             print('found:', item)
 
 def main():
@@ -18,10 +18,10 @@ def prompt():
     if mode == 'q':
         query = input()
         search(query)
-    
+
     elif mode == 'a':
         entry = input()
         add_entry(entry)
-        print(input)
+        print(entry)
 
 if __name__ == '__main__': main()
